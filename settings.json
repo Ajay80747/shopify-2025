@@ -1,0 +1,58 @@
+{
+    "cSpell.words": [
+        "AUTOINCREMENT",
+        "jsonify",
+        "shopmix"
+    ],
+    "python.testing.pytestArgs": [
+        "."
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "my_project",
+            "group": "1",
+            "database": "animals",
+            "username": "root",
+            "connectionTimeout": 32
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 33060,
+            "driver": "MySQL",
+            "name": "shopmix",
+            "group": "shopsy",
+            "database": "shopmix",
+            "username": "root",
+            "connectionTimeout": 32
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "shopmix-db",
+            "username": "Ajay",
+            "database": "shopmix",
+            "password": "Ajay@123"
+        }
+    ]
+}
